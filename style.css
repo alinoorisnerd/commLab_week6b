@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 20px, 20px, 20px,20px ;
+
+}
+.title{
+    margin-left: 40px;
+}
+.links{
+    margin-right: 40px;
+}
+
+h2{
+    font-family: 'Indie Flower ';
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#list{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+li a:active{
+    margin-bottom: 1px solid white
+}
+.space{
+    height: 30px;
+    background-color: white;
+}
+.body{
+background-color: white;
+margin-left: 50px;
+margin-right: 50px;
+padding-left:10px ;
+padding-right: 10px;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+.parallex{
+    height:700px ;
+    width: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* object-fit: contain; */
+
+}
+
+
+.title{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+    margin-left: 45px;
+    margin-right: 45px;
+    
+}
+
+.title2{
+    text-align: center;
+    font-size: 40px;
+}
+.paragraph{
+    text-align: start;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: '';
+}
+#p1{background-image: url(assignment_pics/IMG_3336.JPG);}
+#p2{background-image: url(assignment_pics/IMG_3334.JPG);}
+#p3{background-image: url(assignment_pics/IMG_3326.JPG);}
+#p4{background-image: url(assignment_pics/IMG_3330.JPG);}
+#p5{background-image: url(assignment_pics/IMG_3331.JPG);}
+#p6{background-image: url(assignment_pics/IMG_3332.JPG); height: 500px;}
+#p7{background-image: url(assignment_pics/IMG_3338.JPG);}
+#p8{background-image: url(assignment_pics/IMG_3323.JPG); height: 400px;}
+#p9{background-image: url(assignment_pics/IMG_3333.JPG); height: 350px;}
+#p10{background-image: url(assignment_pics/IMG_3335.JPG);}
+
+
+.footer{
+    margin: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.label{
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    opacity: 70%;
+    font-size: 30pt;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 20px;
+    font-family: 'Old Standard TT';
+}
